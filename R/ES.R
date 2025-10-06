@@ -54,7 +54,7 @@ ajs <- matrix(block_cross(Xscale, matrix(block_multiple(Xscale, bb-bcur, ii, sor
 jjout <- NULL
 if(length(jjout) >= 1)
 {
-print(length(jj))
+
 jjout <- sort(unique(jjout)) }   
     gam[gam<EPS] <- NA
     gam[jj,] <- NA
